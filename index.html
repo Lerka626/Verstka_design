@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/style.css"><link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="manifest" href="img/site.webmanifest">
+        <title>Antools</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="content">
+                <header class="header">
+                    <div class="header__wrapper wow animate__animated animate__fadeIn" data-wow-duration="2s">
+                        <div class="_container"><div class="header__body">
+                            <div class="header__left">
+                                <button class="header__burger" id="menu-open" type="button">
+                                    <span></span>
+                                </button> 
+                                <a class="header__logo" href="index.html">
+                                    <picture>
+                                        <source srcset="img/logo-little.svg" media="(max-width: 480.2px)">
+                                        <img src="img/logo-big.svg" alt="header-logo">
+                                    </picture>
+                                </a>
+                            </div>
+                            <nav class="header__menu menu">
+                                <div class="menu__wrapper"></div>
+                                <div class="menu__inner">
+                                    <div class="menu__top">
+                                        <a class="header__logo" href="index.html">
+                                            <img src="img/logo-big.svg" alt="header-logo"> 
+                                        </a>
+                                        <button class="menu__close close" id="menu-close" type="button"></button>
+                                    </div>
+                                    <div class="menu__content">
+                                        <ul class="menu__list" data-spollers="992.2, max" data-one-spollers>
+                                            <li class="menu__list-item">
+                                                <a class="menu__list-link" href="#">
+                                                    Home
+                                                </a>
+                                            </li>
+                                            <li class="menu__list-item">
+                                                <a class="menu__list-link" data-sub-menu data-spoller href="#">
+                                                    Categories 
+                                                    <i class="menu__arrow _icon-arrow"></i>
+                                                </a>
+                                                <ul class="menu__sub menu-sub">
+                                                    <li class="menu-sub__item">
+                                                        <a class="menu-sub__list-link" href="#">
+                                                            Categories #1
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-sub__item">
+                                                        <a class="menu-sub__list-link" href="#">
+                                                            Categories #2
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-sub__item">
+                                                        <a class="menu-sub__list-link" href="#">
+                                                            Categories #3
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu__list-item">
+                                                <a class="menu__list-link" href="#">
+                                                    My Collections
+                                                </a>
+                                            </li>
+                                            <li class="menu__list-item">
+                                                <a class="menu__list-link" href="#">
+                                                    Blog
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                            <div class="header__actions header-actions">
+                                <button class="header-actions__btn header-actions__btn_first" type="button">
+                                    Login
+                                </button> 
+                                <button class="header-actions__btn header-actions__btn_second btn" type="button">
+                                    Sign Up
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="page">
+                <section class="page__main-block main-block">
+                    <div class="main-block__content">
+                        <div class="main-block__container _container">
+                            <div class="main-block__body">
+                                <h1 class="main-block__title _title">
+                                    Awesome tools for Designer & Developer
+                                    <span class="_orange">.</span>
+                                </h1>
+                                <p class="main-block__text">
+                                    Antool is a web collection of information on paid or free Design and Development tools
+                                </p>
+                                <div class="main-block__field field">
+                                    <form class="field__form" action="">
+                                        <div class="field__item">
+                                            <label class="field__label _icon-search" for="search-input"></label> 
+                                            <input class="field__input" id="search-input" type="text" placeholder="find more than 430+ tools..." name="q" required> 
+                                            <button class="field__btn btn" type="submit">
+                                                Search
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="main-block__icons main-block-icons">
+                                    <a class="main-block-icons__item main-block-icons__item_01 _icon-facebook"></a> 
+                                    <a class="main-block-icons__item main-block-icons__item_02 _icon-insta"></a> 
+                                    <a class="main-block-icons__item main-block-icons__item_03 _icon-twitter"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-block__image">
+                        <img src="img/page/main-block/image.png"">
+                    </div>
+                </section>
+                <section class="page__popular popular">
+                    <div class="_container">
+                        <div class="popular__body">
+                            <h2 class="popular__title _title">
+                                Most Popular Tools
+                            </h2>
+                            <p class="popular__sub-title">
+                                Tools for the best Designers and Developers most popularly used in the world
+                            </p>
+                            <div class="popular__column product-column">
+                                <article class="product-column__card">
+                                    <div class="product-column__header product-column-header">
+                                        <div class="product-column-header__image">
+                                            <img src="img/page/popular/01.svg">
+                                        </div>
+                                        <div class="product-column-header__text-block">
+                                            <h3 class="product-column-header__title">
+                                                FIGMA
+                                            </h3>
+                                            <p class="product-column-header__sub-title">
+                                                Free
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p class="product-column__text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    <div class="product-column__actions product-column-actions">
+                                        <div class="product-column-actions__items">
+                                            <button class="product-column-actions__favorite product-column-actions__item product-favorite _icon-favorites"></button> 
+                                            <a class="product-column-actions__folder product-column-actions__item _icon-folder" href="#"></a>
+                                        </div>
+                                        <a class="product-column-actions__btn btn" href="">
+                                            Visit
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="product-column__card">
+                                    <div class="product-column__header product-column-header">
+                                        <div class="product-column-header__image">
+                                            <img src="img/page/popular/02.svg">
+                                        </div>
+                                        <div class="product-column-header__text-block">
+                                            <h3 class="product-column-header__title">
+                                                Sketch
+                                            </h3>
+                                            <p class="product-column-header__sub-title">
+                                                Trial & Paid
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p class="product-column__text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    <div class="product-column__actions product-column-actions">
+                                        <div class="product-column-actions__items">
+                                            <button class="product-column-actions__favorite product-column-actions__item product-favorite _icon-favorites"></button> 
+                                            <a class="product-column-actions__folder product-column-actions__item _icon-folder" href="#"></a>
+                                        </div>
+                                        <a class="product-column-actions__btn btn" href="">
+                                            Visit
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="product-column__card">
+                                    <div class="product-column__header product-column-header">
+                                        <div class="product-column-header__image">
+                                            <img src="img/page/popular/03.svg">
+                                        </div>
+                                        <div class="product-column-header__text-block">
+                                            <h3 class="product-column-header__title">
+                                                Visual Studio Code
+                                            </h3>
+                                            <p class="product-column-header__sub-title">
+                                                Free
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p class="product-column__text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    <div class="product-column__actions product-column-actions">
+                                        <div class="product-column-actions__items">
+                                            <button class="product-column-actions__favorite product-column-actions__item product-favorite _icon-favorites"></button> 
+                                            <a class="product-column-actions__folder product-column-actions__item _icon-folder" href="#"></a>
+                                        </div>
+                                        <a class="product-column-actions__btn btn" href="">
+                                            Visit
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="product-column__card">
+                                    <div class="product-column__header product-column-header">
+                                        <div class="product-column-header__image">
+                                            <img src="img/page/popular/04.svg">
+                                        </div>
+                                        <div class="product-column-header__text-block">
+                                            <h3 class="product-column-header__title">
+                                                Notion
+                                            </h3>
+                                            <p class="product-column-header__sub-title">
+                                                Free & Paid
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p class="product-column__text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    <div class="product-column__actions product-column-actions">
+                                        <div class="product-column-actions__items">
+                                            <button class="product-column-actions__favorite product-column-actions__item product-favorite _icon-favorites"></button> 
+                                            <a class="product-column-actions__folder product-column-actions__item _icon-folder" href="#"></a>
+                                        </div>
+                                        <a class="product-column-actions__btn btn" href="">
+                                            Visit
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="product-column__card">
+                                    <div class="product-column__header product-column-header">
+                                        <div class="product-column-header__image">
+                                            <img src="img/page/popular/05.svg">
+                                        </div>
+                                        <div class="product-column-header__text-block">
+                                            <h3 class="product-column-header__title">
+                                                Slack
+                                            </h3>
+                                            <p class="product-column-header__sub-title">
+                                                Free & Paid
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p class="product-column__text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    <div class="product-column__actions product-column-actions">
+                                        <div class="product-column-actions__items">
+                                            <button class="product-column-actions__favorite product-column-actions__item product-favorite _icon-favorites"></button> 
+                                            <a class="product-column-actions__folder product-column-actions__item _icon-folder" href="#"></a>
+                                        </div>
+                                        <a class="product-column-actions__btn btn" href="">
+                                            Visit
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="product-column__card">
+                                    <div class="product-column__header product-column-header">
+                                        <div class="product-column-header__image">
+                                            <img src="img/page/popular/06.svg">
+                                        </div>
+                                        <div class="product-column-header__text-block">
+                                            <h3 class="product-column-header__title">
+                                                Invision
+                                            </h3>
+                                            <p class="product-column-header__sub-title">
+                                                Free & Paid
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p class="product-column__text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    </p>
+                                    <div class="product-column__actions product-column-actions">
+                                        <div class="product-column-actions__items">
+                                            <button class="product-column-actions__favorite product-column-actions__item product-favorite _icon-favorites"></button> 
+                                            <a class="product-column-actions__folder product-column-actions__item _icon-folder" href="#"></a>
+                                        </div>
+                                        <a class="product-column-actions__btn btn" href="">
+                                            Visit
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                            <button class="popular__show-more btn" type="button">
+                                Load more
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <section class="page__brand brand">
+                    <div class="_container">
+                        <div class="brand__body">
+                            <h2 class="brand__title">
+                                Trusted more than 150+ brand
+                            </h2>
+                            <div class="brand__cards brand-cards">
+                                <a class="brand-cards__item brand-cards__item_01 _icon-microsoft" href="#"></a> 
+                                <a class="brand-cards__item brand-cards__item_02 _icon-google" href="#"></a> 
+                                <a class="brand-cards__item brand-cards__item_03 _icon-slack" href="#"></a> 
+                                <a class="brand-cards__item brand-cards__item_04 _icon-word-press" href="#"></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            </div>
+        </div>
+    </body>
+</html>
